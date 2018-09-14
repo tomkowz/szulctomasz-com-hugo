@@ -1,0 +1,23 @@
+{{ partial "header.html" . }}
+{{ partial "top-nav.html" . }}
+    <p>Hi, my name is Tomasz 🧔🏻, and I'm a *software engineer* with {{ sub .Site.Params.current_year 2012 }} years of 
+professional experience, mainly focused on iOS apps development. Currently I'm doing my best at <a class="intive" href="https://intive.com">intive</a> 💪🏻.
+    </p>
+
+    <p>
+        You can find me on: 
+        <a target="_blank" href="{{ .Site.Social.linkedin_link }}">linkedin</a>,
+        <a target="_blank" href="{{ .Site.Social.github_link }}">github</a>, 
+        <a target="_blank" href="{{ .Site.Social.twitter_link }}">twitter</a>,
+        or even on <a target="_blank" href="{{ .Site.Social.instagram_link }}">instagram</a> if you are a runner 🏃‍🔥 :)
+        Also you can drop me an <a href="mailto:{{ .Site.Social.email }}?subject=Email from the blog">email</a>.
+    </p>
+
+    <h3 class="margin-bottom-0">Talks</h3>
+    <p>I've got opportunity to talk 🎤 once so far, but I hope it will change sometime in the future! The last talk in front of public was <a target="_blank" href="https://youtu.be/WWtAlXfOBk8">Apple Watch Getting Started (2015)</a>. This is few years old now though ;)</p>
+
+    <h3 class="margin-bottom-0">Testimonials</h3>
+    <p>Go ahead and throw an eye on my <a target="_blank" href="https://linkedin.com/in/tomkowz">linkedin</a> for those.</p>
+
+    <p>🚀</p>
+{{ partial "footer.html" . }}

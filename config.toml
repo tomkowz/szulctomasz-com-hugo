@@ -1,0 +1,25 @@
+baseURL = "http://szulctomasz.com/"
+
+languageCode = "en-us"
+title = "Tomasz Szulc"
+rssLimit = 20
+
+pygmentsUseClassic = false
+pygmentsCodefences = false
+pygmentsUseClasses = true
+
+[author]
+    name = "Tomasz Szulc"
+
+[params]
+    current_year = 2018
+    default_title = "iOS Software Engineer - Tomasz Szulc"
+    default_description = "iOS Software Engineer. Personal site, programming blog and more."
+    default_tags = ["developer", "ios", "programming", "mobile", "apps"]
+
+[social]
+    github_link = "https://github.com/tomkowz"
+    twitter_link = "https://twitter.com/tomkowz"
+    linkedin_link = "https://linkedin.com/in/tomkowz"
+    instagram_link = "https://instagram.com/tomkowz_runner"
+    email = "mail@szulctomasz.com"

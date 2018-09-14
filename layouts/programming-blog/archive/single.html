@@ -1,0 +1,25 @@
+{{ partial "header.html" . }}
+{{ partial "top-nav.html" . }}
+    <h3>Articles</h3>
+
+    {{ range (where .Site.Sections "Type" "programming-blog") }}
+        {{ $articles := (where .Pages "Params.type" "programming-blog/article") }}
+
+        <ul>
+        {{ range $group := $articles.GroupByDate "January 2006" }}
+            <li class="b">{{ .Key }}
+                {{ range .Pages }}
+                    {{ partial "programming-blog/archive/entry.html" . }}
+                {{ end }}
+            </li>
+        {{ end }}
+        </ul>
+
+        <ul>
+        {{ range $articles }}
+        {{ end }}
+        </ul>
+    {{ end }}
+
+    <p>--<br/>All articles published before 9/May/2017 have been archived and are available <a href="{{ "uploads/programming-blog/archive-09-05-2017.zip" | relURL }}">right here</a>. And <a href="{{ "programming-blog/archive-2017" | relURL }}">here</a> you can check out titles of the archived articles before you start to download them.</p>
+{{ partial "footer.html" . }}

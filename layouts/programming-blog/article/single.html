@@ -1,0 +1,8 @@
+{{ partial "header.html" . }}
+{{ partial "top-nav.html" . }}
+    <article>
+        <h1>{{ .Title }}</h1>
+        <p>{{ .Content }}</p>
+        <footer>--<br/>2015-{{ .Site.Params.current_year }} All rights reserved. {{ .Site.Author.name }}</footer>
+    </article>
+{{ partial "footer.html" . }}

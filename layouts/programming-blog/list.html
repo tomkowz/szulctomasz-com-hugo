@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+{{ partial "top-nav.html" . }}
+    <h3>Newest Articles</h3>
+
+    {{ $articles := (where .Pages "Params.type" "programming-blog/article") }}
+
+    <ul>
+    {{ range first 5 $articles }}
+        {{ partial "programming-blog/entry.html" . }}
+    {{ end }}
+    </ul>
+
+    <p>--<br/>The site is still under construction 🚧 but *soon* you'll be able to see me here publishing *articles* again. Yay!</p>
+
+    <p>
+        <a href="{{ "programming-blog/archive" | relURL }}"><button>Older Articles</button></a>
+        <a href="{{ .RSSLink }}"><button>RSS Feed</button></a>
+    </p>
+{{ partial "footer.html" . }}
