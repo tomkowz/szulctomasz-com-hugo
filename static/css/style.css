@@ -41,7 +41,6 @@ a:visited {
 }
 
 #main-container {
-    width: 500px;
     margin: 15px;
 }
 
@@ -119,6 +118,14 @@ Decorators
     font-weight: 800;
 }
 
+.width-default {
+    max-width: 500px;
+}
+
+.width-programming-blog {
+    max-width: 768px;
+}
+
 /*
 /programming-blog/entry
 */
@@ -151,10 +158,6 @@ Decorators
 /*
 /programming-blog/article
 */
-article {
-    width: 640px;
-}
-
 article ul {
     list-style-type: disc;
     margin: 0 0 1em 1em;
@@ -184,6 +187,12 @@ article pre {
     line-height: 1.3em;
     background: #FFFFFF;
     padding: 0 0 0 1em;
+
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
 }
 
 article img {

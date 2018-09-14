@@ -29,4 +29,4 @@
 	</script>
 </head>
 <body>
-	<main id="main-container">
+	<main id="main-container" class= "{{ if gt (len .Section) 0 }} width-{{ .Section }} {{ else }} width-default {{ end }}">
