@@ -90,6 +90,7 @@ button {
     -webkit-border-radius: 6px;
     -khtml-border-radius: 6px;
     border-radius: 6px;
+    background-color: #FFFFFF;
 }
 
 button:focus {
