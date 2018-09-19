@@ -23,3 +23,6 @@ pygmentsUseClasses = true
     linkedin_link = "https://linkedin.com/in/tomkowz"
     instagram_link = "https://instagram.com/tomkowz_runner"
     email = "mail@szulctomasz.com"
+
+[permalinks]
+    "programming-blog" = "programming-blog/:year/:month/:title"
