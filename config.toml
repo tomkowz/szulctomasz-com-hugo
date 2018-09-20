@@ -13,7 +13,7 @@ pygmentsUseClasses = true
 
 [params]
     current_year = 2018
-    default_title = "iOS Software Engineer - Tomasz Szulc"
+    default_title = "Tomasz Szulc"
     default_description = "iOS Software Engineer. Personal site, programming blog and more."
     default_tags = ["developer", "ios", "programming", "mobile", "apps"]
 

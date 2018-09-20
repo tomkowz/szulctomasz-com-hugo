@@ -1,3 +1,3 @@
 ---
-title: "Programming Blog"
+title: "Blog"
 ---
