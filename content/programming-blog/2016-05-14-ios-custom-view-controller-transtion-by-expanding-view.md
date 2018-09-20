@@ -6,7 +6,8 @@ title: "Custom View Controller transition by expanding view"
 excerpt: "How to transition from one view controller to another by expanding a tapped button?"
 tags: ["ios", "swift", "ui"]
 aliases: [
-    "/blog/2016-05-14-ios-custom-view-controller-transtion-by-expanding-view/"
+    "/blog/2016-05-14-ios-custom-view-controller-transtion-by-expanding-view/",
+    "/2016/05/14/ios-custom-view-controller-transtion-by-expanding-view.html"
 ]
 ---
 
