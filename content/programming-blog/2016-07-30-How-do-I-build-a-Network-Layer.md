@@ -6,8 +6,7 @@ title: "How do I build a Network Layer"
 excerpt: "Let's design and build a reusable network layer."
 tags: ["ios", "swift", "network"]
 aliases: [
-    "/how-do-I-build-a-network-layer/",
-    "/how-do-i-build-a-network-layer/"
+    "/how-do-I-build-a-network-layer/"
 ]
 ---
 Working and leading two projects at a time means a great opportunity to
