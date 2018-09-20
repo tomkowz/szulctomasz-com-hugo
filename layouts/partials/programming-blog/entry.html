@@ -1,3 +1,7 @@
 <li class="blog-entry">
-    <p><a class="title" href="{{ .Permalink }}">{{ .Title }}</a><br/>{{ .Params.excerpt }}</p>
+    {{ $pub_year := int (dateFormat "2006" .Params.publishdate) }}
+    {{ $cur_year := int (dateFormat "2006" now) }}
+    {{ $formatted_date := dateFormat "Jan 2, 2006" .Params.publishdate }}
+
+    <p><a class="title" href="{{ .Permalink }}">{{ .Title }}</a> <span class="date">{{ if eq $pub_year $cur_year }} {{ $formatted_date }} {{ end }}</span><br/>{{ .Params.excerpt }}</p>
 </li>

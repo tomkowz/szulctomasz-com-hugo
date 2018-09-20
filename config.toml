@@ -25,4 +25,4 @@ pygmentsUseClasses = true
     email = "mail@szulctomasz.com"
 
 [permalinks]
-    "programming-blog" = "programming-blog/:year/:month/:title"
+    "programming-blog" = "programming-blog/:year:/:month/:title"

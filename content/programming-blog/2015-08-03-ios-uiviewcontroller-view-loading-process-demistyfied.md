@@ -15,6 +15,7 @@ issues with loading views on her blog in
 [The One Weird Trick For Testing View Controllers in Swift][natasha-post] post.
 
 She also wrote:
+
 > The key here is that Apple overrides the viewController’s view getter to call the loadView function and do a bunch of other things we have no access to. If anyone else has other great insights into why this works, feel free to add it in the comments!
 
 Yeah.. this is interesting what is going on under the hood. She inspired me

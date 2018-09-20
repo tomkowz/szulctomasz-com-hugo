@@ -141,6 +141,12 @@ Decorators
     text-decoration: underline;
 }
 
+.blog-entry .date {
+    font-size: 0.65em;
+    display: inline-block;
+    color: #888888;
+}
+
 /*
 /programming-blog/archive/entry
 */
@@ -183,7 +189,7 @@ article h2:after, article h3:after, article h4:after {
 }
 
 article pre {
-    font-size: 0.6em;
+    font-size: 0.65em;
     line-height: 1.3em;
     background: #FFFFFF;
     padding: 0 0 0 1em;
