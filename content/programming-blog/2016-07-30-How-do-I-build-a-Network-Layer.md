@@ -4,7 +4,7 @@ id: 53
 publishdate: "2016-07-30 19:00:00"
 title: "How do I build a Network Layer"
 excerpt: "Let's design and build a reusable network layer."
-tags: ["ios", "swift", "network", "request", "response", "design", "parser", "mapper", "mapping"]
+tags: ["ios", "swift", "network"]
 ---
 Working and leading two projects at a time means a great opportunity to
 experiment with app architecture, and do experiments with other concepts I
