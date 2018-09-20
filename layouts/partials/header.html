@@ -12,6 +12,8 @@
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Karla">
 	<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 
+	<link rel="shortcut icon" type="image/png" rel="icon" href="{{ "img/rounded-avatar.png" | relURL }}"/>
+
 	{{ with .OutputFormats.Get "rss" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
