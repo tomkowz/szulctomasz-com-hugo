@@ -16,8 +16,8 @@
 	<!-- /styles -->
 
 	<!-- favicons -->
-	<link rel="shortcut icon" type="image/jpg" rel="icon" href="{{ "img/favicon.jpg" | relURL }}"/ />
-	<link rel="shortcut icon" type="image/x-icon" rel="icon" href="{{ "img/favicon.ico" | relURL }}"/ />
+	<link rel="shortcut icon" type="image/jpg" href="{{ "img/favicon.jpg" | relURL }}"/ />
+	<link rel="shortcut icon" type="image/x-icon" href="{{ "img/favicon.ico" | relURL }}"/ />
 	<!-- /favicons -->
 	{{ with .OutputFormats.Get "rss" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
