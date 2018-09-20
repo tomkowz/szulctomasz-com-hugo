@@ -8,7 +8,7 @@
 	<meta name="description" property="og:description" content="{{ .Site.Params.default_description }}" />
 	<meta name="author" content="{{ .Site.Author.name }}" />
 	<meta name="keywords" content="{{ delimit .Site.Params.default_tags ", "}}" />
-	<meta property="og:image" content="{{ "img/rounded-avatar.png" | relURL }}" />
+	<meta property="og:image" content="{{ "img/favicon.jpg" | relURL }}" />
 
 	<!-- styles -->
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Karla" />
@@ -16,8 +16,8 @@
 	<!-- /styles -->
 
 	<!-- favicons -->
-	<link rel="shortcut icon" type="image/png" rel="icon" href="{{ "img/rounded-avatar.png" | relURL }}"/ />
-	<link rel="shortcut icon" type="image/x-icon" rel="icon" href="{{ "img/rounded-avatar.png" | relURL }}"/ />
+	<link rel="shortcut icon" type="image/jpg" rel="icon" href="{{ "img/favicon.jpg" | relURL }}"/ />
+	<link rel="shortcut icon" type="image/x-icon" rel="icon" href="{{ "img/favicon.ico" | relURL }}"/ />
 	<!-- /favicons -->
 	{{ with .OutputFormats.Get "rss" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
