@@ -6,6 +6,14 @@ body {
     color: #464646;
 }
 
+::selection {
+    background: #F6DE61;
+}
+
+::-moz-selection {
+    background: #F6DE61;
+}
+
 h3 {
     font-size: 1.0em;
     font-weight: normal;
