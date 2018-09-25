@@ -4,7 +4,8 @@ id: 54
 publishdate: "2018-09-20 08:00:00"
 title: "Add fireworks and sparks to a UIView"
 excerpt: "Let's design and implement this colorful effect of fireworks that explodes around a button."
-tags: ["ios", "swift", "ui"]
+image: "/uploads/programming-blog/post-54/hero.gif"
+tags: ["programming", "ios", "swift", "ui"]
 ---
 
 Do you like a little things that happens in apps you're using? I looked at [dribbble] for inspirations and found a beautiful design of onboarding process where fireworks exploded (!) around important view when user changes settings or something. I wondered how difficult it is to implement, and some time later I finished it :) 

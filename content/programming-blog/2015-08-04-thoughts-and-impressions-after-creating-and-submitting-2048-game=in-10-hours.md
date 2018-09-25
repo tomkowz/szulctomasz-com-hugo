@@ -4,7 +4,8 @@ id: 27
 publishdate: "2015-08-04 19:00:00"
 title: "I wrote a copy of 2048 game in 10 hours and submitted to the App Store"
 excerpt: "That was pretty effective Saturday. Writing game was an interesting process and I played a lot 2048 that day. Here are my thoughts and impressions."
-tags: ["ios", "swift"]
+image: null
+tags: ["programming", "ios", "swift"]
 aliases: [
     "/thoughts-and-impressions-game-submitted-in-10-hours/"
 ]

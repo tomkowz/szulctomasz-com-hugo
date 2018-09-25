@@ -4,7 +4,8 @@ id: 26
 publishdate: "2015-08-03 19:00:00"
 title: "UIViewController's view loading process demystified"
 excerpt: "@NatashaTheRobot posted about testing view controllers and issues with loading views on her blog in \"The One Weird Trick For Testing View Controllers in Swift\" post."
-tags: ["ios", "swift"]
+image: null
+tags: ["programming", "ios", "swift"]
 aliases: [
     "/blog/2015-08-03-ios-uiviewcontroller-view-loading-process-demistyfied/"
 ]

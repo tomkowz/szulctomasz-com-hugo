@@ -4,7 +4,8 @@ id: 32
 publishdate: "2015-08-21 19:00:00"
 title: "Initialization process of a view loaded from a storyboard"
 excerpt: "This post is continuation of the \"UIViewController’s view loading process demystified\". I’d like to cover how custom view is loaded when it is placed in a storyboard."
-tags: ["ios"]
+image: null
+tags: ["programming", "ios"]
 aliases: [
     "/ios-initialization-process-of-a-view-loaded-from-a-storyboard/"
 ]

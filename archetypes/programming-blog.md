@@ -1,8 +1,9 @@
 ---
-type: "article"
+type: "programming-blog/article"
 id: 1
-date: "2016-07-30"
-title: "How do I build a Network Layer"
-excerpt: "Let's design and build a reusable network layer."
-tags: ["ios", "swift", "network", "request", "response", "design", "parser", "mapper", "mapping"]
+publishdate: "2018-09-20 08:00:00"
+title: "Add fireworks and sparks to a UIView"
+excerpt: "Let's design and implement this colorful effect of fireworks that explodes around a button."
+image: "static/uploads/post-1/hero.png"
+tags: ["ios", "swift", "ui"]
 ---
