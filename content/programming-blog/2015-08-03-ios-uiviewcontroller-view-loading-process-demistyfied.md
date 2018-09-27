@@ -7,9 +7,9 @@ excerpt: "@NatashaTheRobot posted about testing view controllers and issues with
 image: null
 tags: ["programming", "ios", "swift"]
 aliases: [
+    "/ios-uiviewcontrollers-view-loading-process-demistyfied/",
     "/blog/2015-08-03-ios-uiviewcontroller-view-loading-process-demistyfied/",
     "/blog/2015-08-03-ios-uiviewcontrollers-view-loading-process-demistyfied/",
-    "/ios-uiviewcontrollers-view-loading-process-demistyfied/"
 ]
 ---
 
