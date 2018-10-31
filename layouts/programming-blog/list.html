@@ -1,19 +1,19 @@
 {{ partial "header.html" . }}
 {{ partial "top-nav.html" . }}
-    <h3>Newest Articles</h3>
+<h3>Newest Articles</h3>
 
-    {{ $articles := (where .Pages "Params.type" "programming-blog/article") }}
+{{ $articles := (where .Pages "Params.type" "programming-blog/article") }}
 
-    <ul>
-    {{ range first 10 $articles }}
-        {{ partial "programming-blog/entry.html" . }}
-    {{ end }}
-    </ul>
+<ul>
+{{ range first 10 $articles }}
+    {{ partial "programming-blog/entry.html" . }}
+{{ end }}
+</ul>
 
-    <p>--<br/>Did you find an article interesting or have a question? Do not hesitate and contact me via <a target="_blank" href="{{ .Site.Social.twitter_link }}">twitter</a> or <a href="mailto:{{ .Site.Social.email }}?subject=Email from the blog">email</a>. Do you like an article? Share it :)</p>
+<p>--<br/>Did you find an article interesting or have a question? Do not hesitate and contact me via <a target="_blank" href="{{ .Site.Social.twitter_link }}">twitter</a> or <a href="mailto:{{ .Site.Social.email }}?subject=Email from the blog">email</a>. Do you like an article? Share it :)</p>
 
-    <p>
-        <a href="{{ "programming-blog/archive" | relURL }}"><button>Older Articles</button></a>
-        <a href="{{ .RSSLink }}"><button>RSS Feed</button></a>
-    </p>
+<p>
+    <a href="{{ "programming-blog/archive" | relURL }}"><button>Older Articles</button></a>
+    <a href="{{ .RSSLink }}"><button>RSS Feed</button></a>
+</p>
 {{ partial "footer.html" . }}

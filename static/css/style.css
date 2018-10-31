@@ -49,7 +49,7 @@ a:visited {
 }
 
 #main-container {
-    margin: 15px;
+    margin: 15px auto;
 }
 
 #top-header {
@@ -127,11 +127,11 @@ Decorators
 }
 
 .width-default {
-    max-width: 500px;
+    max-width: 640px;
 }
 
 .width-programming-blog {
-    max-width: 768px;
+    max-width: 640px;
 }
 
 /*
