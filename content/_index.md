@@ -1,3 +1,3 @@
 ---
-"title": "Home"
+"title": "Home, about me, say hi!"
 ---
