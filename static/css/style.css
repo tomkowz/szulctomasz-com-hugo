@@ -1,3 +1,8 @@
+:root {
+    --highlighted: #F6DE61;
+    --highlightedPlus1: #fdf8df;
+}
+
 body {
     background-color: #ffffff;
     font-family: "Karla", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -7,11 +12,11 @@ body {
 }
 
 ::selection {
-    background: #F6DE61;
+    background: var(--highlighted);
 }
 
 ::-moz-selection {
-    background: #F6DE61;
+    background: var(--highlighted);
 }
 
 h3 {
@@ -225,3 +230,18 @@ a.intive {
 a.intive:visited {
     color: #597BC5;
 }
+
+/*
+Notice
+*/
+
+.notice {
+    background-color: var(--highlightedPlus1);
+    border: 1px solid var(--highlighted);
+    padding: 1em;
+}
+
+.notice.job-offers {
+    background-color: #fff3eb;
+    border: 1px solid #FF6904;
+} 
